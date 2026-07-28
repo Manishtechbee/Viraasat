@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+.font-cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.map-fullscreen:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  background: #f8f5f0;
+}
+
+.map-fullscreen:-webkit-full-screen {
+  width: 100vw;
+  height: 100vh;
+  background: #f8f5f0;
+}
