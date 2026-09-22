@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import bannerBg from "./assets/bannerBg.png";
-import Error from "./assets/error.png";
+import Error from "./assets/Error.png";
 
 const cards = [
   {
